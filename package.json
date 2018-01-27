@@ -1,5 +1,5 @@
 {
-  "name": "vueexample",
+  "name": "GalvanizeDinos1",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "Brandon Johnson",
@@ -10,7 +10,9 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.5.2"
+    "firebase": "^4.9.0",
+    "vue": "^2.5.2",
+    "vue-headful": "^1.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
