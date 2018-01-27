@@ -33,7 +33,6 @@ export default {
         .then(response => response.json())
         .then(response => {
           this.listingData = response.reverse();
-          console.log(this.listingData);
         });
     },
     postListing(listing) {
